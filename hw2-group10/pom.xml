@@ -108,6 +108,12 @@
 			<artifactId>lucene-core</artifactId>
 			<version>3.6.1</version>
 		</dependency>
+		<dependency>
+			<groupId>abner</groupId>
+			<artifactId>abner</artifactId>
+			<version>1.5</version>
+			<type>pom.lastUpdated</type>
+		</dependency>
 	</dependencies>
 	<scm>
 		<connection>scm:git:git@github.com:alkeshpatel11/hw2-group10.git</connection>
