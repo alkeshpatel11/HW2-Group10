@@ -111,8 +111,7 @@
 		<dependency>
 			<groupId>abner</groupId>
 			<artifactId>abner</artifactId>
-			<version>1.5</version>
-			<type>pom.lastUpdated</type>
+			<version>1.5</version>			
 		</dependency>
 	</dependencies>
 	<scm>
