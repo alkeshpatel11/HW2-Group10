@@ -20,7 +20,7 @@ import edu.cmu.lti.bio.yifeih.tools.*;
  * If the confidence is lower than <code>lower</code> then we will recheck it onilone
  * and give it a new confidence.(for now the new confidence will be the threhold in next component )
  */
-public class checkonline extends JCasAnnotator_ImplBase {
+public class OnlineGeneCheckAnnotator extends JCasAnnotator_ImplBase {
   //private Pattern mYorktownPattern = Pattern.compile("[P](\\d)*\\s");
   private Pattern oneLine = Pattern.compile("([^ ]*)[ ](.*)");//add[\n] at the end when single
 

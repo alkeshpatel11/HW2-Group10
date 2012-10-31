@@ -23,7 +23,7 @@ import edu.cmu.lti.bio.yifeih.tools.*;
  * If the confidence is higher than some threhold, it will be added into "allNouns" views.
  *
  */
-public class getSentence extends JCasAnnotator_ImplBase {
+public class GeneAnnotatorHmm extends JCasAnnotator_ImplBase {
   //private Pattern mYorktownPattern = Pattern.compile("[P](\\d)*\\s");
   //private Pattern oneLine = Pattern.compile("([^ ]*)[ ](.*)");//add[\n] at the end when single
   /**

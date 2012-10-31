@@ -22,7 +22,7 @@ import edu.cmu.lti.bio.yifeih.types.*;
  * Using Banner trained model to tag qualified sentences. And put final gene tagged phases in to 
  * a new view "FinalNouns" to hold those annotators for the consumer 
  */
-public class bannerIt extends JCasAnnotator_ImplBase {
+public class GeneAnnotatorCRF extends JCasAnnotator_ImplBase {
       static int allcount = 0;
       static int partcount = 0;
 
